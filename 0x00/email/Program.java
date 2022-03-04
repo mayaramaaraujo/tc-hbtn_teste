@@ -6,7 +6,7 @@ public class Program {
         boolean isValidEmail = TesteEmail.testar_email_com_arroba();
         System.out.println(isValidEmail);
 
-        System.out.println("Teste de email sem @");
+        System.out.println("Teste de email sem arroba");
         isValidEmail = TesteEmail.testar_email_sem_arroba();
         System.out.println(isValidEmail);
 
