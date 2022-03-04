@@ -2,7 +2,7 @@ public class Program {
 
     public static void main(String[] args) {
 
-        System.out.println("Teste de email válido");
+        System.out.println("Teste de email valido");
         boolean isValidEmail = TesteEmail.testar_email_com_arroba();
         System.out.println(isValidEmail);
 
