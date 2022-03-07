@@ -29,6 +29,6 @@ public class OperacaoBasicaTeste {
     }
 
     public static boolean testar_primo_menor_zero() {
-        return OperacaoBasica.numero_primo(-2) == "Número invalido. Numero menor ou igual a 1 não é primo" ? true : false;
+        return OperacaoBasica.numero_primo(-2) == "Número invalido. Numero menor ou igual a 1 não é primo" ? false : true;
     }
 }
