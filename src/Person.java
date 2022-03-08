@@ -31,12 +31,12 @@ public class Person {
         this.salary = salary;
     }
 
-    public float calculateYearSalary() {
+    public float calculateYearlySalary() {
         return salary * 12;
     }
 
     public boolean isMEI() {
-        if(calculateYearSalary() < 130000 && calculateAge() >= 18) {
+        if(calculateYearlySalary() < 130000 && calculateAge() >= 18) {
             return anotherCompanyOwner == false && Pensioner == false && PublicServer == false;
         }
 
