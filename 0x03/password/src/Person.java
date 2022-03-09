@@ -68,7 +68,7 @@ public class Person {
                 temCaracterEspecial = true;
             }
         }
-
+        
         return temCaracterEspecial && temNumero && temLetraMaiuscula && ehMaiorQue8;
     }
 }
